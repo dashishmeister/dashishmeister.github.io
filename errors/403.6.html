@@ -1,0 +1,13 @@
+<html>
+<script>
+    function blinktext() {
+        var f = document.getElementById('announcement');
+        setInterval(function() {
+          f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');
+        }, 1000);
+      }
+</script>
+<body bgcolor="red" onload="blinktext();">
+    <span id="announcement" style=color:white;font-family:sans-serif;font-size:72px;">403.6 - IP BANNED</span>
+</body>
+</html>
